@@ -9,7 +9,6 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this);
   }
   handleChange(){
-    let color= this.state.color;
     if(this.state.color !=='black'){
       this.setState(
         {color: 'black'}
